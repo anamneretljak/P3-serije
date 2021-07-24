@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pozadina">
+
+        <RelativeLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:elevation="20dp">
+
+            <TextView
+                android:id="@+id/naziv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="Naziv serije:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/naziv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/naziv1"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ocjena1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/naziv"
+                android:background="#000000"
+                android:text="IMDB ocjena:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ocjena"
+                android:layout_below="@id/ocjena1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#FAF2F1"
+                android:textSize="15sp"
+                />
+
+
+            <TextView
+                android:id="@+id/epizoda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ocjena"
+                android:background="#000000"
+                android:text="Broj epizoda:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/epizoda"
+                android:layout_below="@id/epizoda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:background="#000000"
+                android:textAlignment="center"
+                android:textColor="#F4F0EF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/zanr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/epizoda"
+                android:background="#000000"
+                android:text="Žanr:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/zanr"
+                android:layout_below="@id/zanr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#F4F0EF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/anotacija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zanr"
+                android:background="#000000"
+                android:text="Sve anotacije:"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0EF"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/anotacija"
+                android:layout_below="@id/anotacija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#F4F0EF"
+                android:textSize="15sp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

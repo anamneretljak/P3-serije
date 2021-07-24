@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">">Ontologija serija</string>
+    <string name="REST_URL">https://oziz.ffos.hr/nastava20202021/aneretljak_20/ontologija/search/</string>
+    <string name="app_label">Zadatak iz kolegija Programiranje 3</string>
+</resources>
