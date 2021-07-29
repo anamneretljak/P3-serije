@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/pozadina">
+        android:background="#000000">
 
         <RelativeLayout
             android:id="@+id/one"
